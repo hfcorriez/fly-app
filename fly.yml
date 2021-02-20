@@ -1,0 +1,13 @@
+project:
+  ignore:
+    - "node_modules/**"
+  import:
+
+service:
+  http:
+    fn: $http
+    name: http
+    cors: true
+  cron:
+    fn: $cron
+    name: cron
